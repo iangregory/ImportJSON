@@ -1,7 +1,8 @@
 /*====================================================================================================================================*
   ImportJSON by Brad Jasper and Trevor Lohrbeer
   ====================================================================================================================================
-  Version:      1.4.0
+  Version:      1.4.1
+  Fork:         https://github.com/iangregory/ImportJSON
   Project Page: https://github.com/bradjasper/ImportJSON
   Copyright:    (c) 2017 by Brad Jasper
                 (c) 2012-2017 by Trevor Lohrbeer
@@ -22,7 +23,8 @@
 
   ------------------------------------------------------------------------------------------------------------------------------------
   Changelog:
-  
+
+  1.4.1  (May 30, 2018) Fork with merged number parsing and recalc code  
   1.4.0  (July 23, 2017) Transfer project to Brad Jasper. Fixed off-by-one array bug. Fixed previous value bug. Added custom annotations. Added ImportJSONFromSheet and ImportJSONBasicAuth.
   1.3.0  Adds ability to import the text from a set of rows containing the text to parse. All cells are concatenated
   1.2.1  Fixed a bug with how nested arrays are handled. The rowIndex counter wasn't incrementing properly when parsing.

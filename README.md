@@ -17,6 +17,7 @@ Here are all the functions available:
 Review `ImportJSON.gs` for more info on how to use these in detail.
 
 ## Version
+- v1.4.1 (May 30, 2018) - Fork with merged number parsing and recalc code
 - v1.4.0 (July 23, 2017) - Project transferred to Brad Jasper. Fixed off-by-one array bug. Fixed previous value bug. Added custom annotations. Added ImportJSONFromSheet and ImportJSONBasicAuth.
 - v1.3.0 - Adds ability to import the text from a set of rows containing the text to parse. All cells are concatenated
 - v1.2.1 - Fixed a bug with how nested arrays are handled. The rowIndex counter wasn't incrementing properly when parsing.
